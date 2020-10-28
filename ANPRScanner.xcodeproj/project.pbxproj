@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB2A71C7254970C700FE6DEF /* ANPRScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2A71C6254970C700FE6DEF /* ANPRScannerApp.swift */; };
+		BB2A71C9254970C700FE6DEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2A71C8254970C700FE6DEF /* ContentView.swift */; };
+		BB2A71CB254970C800FE6DEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2A71CA254970C800FE6DEF /* Assets.xcassets */; };
+		BB2A71CE254970C800FE6DEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2A71CD254970C800FE6DEF /* Preview Assets.xcassets */; };
+		BB2A71D9254970C900FE6DEF /* ANPRScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2A71D8254970C900FE6DEF /* ANPRScannerTests.swift */; };
+		BB2A71E4254970C900FE6DEF /* ANPRScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2A71E3254970C900FE6DEF /* ANPRScannerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB2A71D5254970C900FE6DEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB2A71BB254970C600FE6DEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB2A71C2254970C700FE6DEF;
+			remoteInfo = ANPRScanner;
+		};
+		BB2A71E0254970C900FE6DEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB2A71BB254970C600FE6DEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB2A71C2254970C700FE6DEF;
+			remoteInfo = ANPRScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB2A71C3254970C700FE6DEF /* ANPRScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ANPRScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2A71C6254970C700FE6DEF /* ANPRScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANPRScannerApp.swift; sourceTree = "<group>"; };
+		BB2A71C8254970C700FE6DEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB2A71CA254970C800FE6DEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB2A71CD254970C800FE6DEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB2A71CF254970C800FE6DEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB2A71D4254970C900FE6DEF /* ANPRScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ANPRScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2A71D8254970C900FE6DEF /* ANPRScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANPRScannerTests.swift; sourceTree = "<group>"; };
+		BB2A71DA254970C900FE6DEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB2A71DF254970C900FE6DEF /* ANPRScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ANPRScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2A71E3254970C900FE6DEF /* ANPRScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANPRScannerUITests.swift; sourceTree = "<group>"; };
+		BB2A71E5254970C900FE6DEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB2A71C0254970C700FE6DEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2A71D1254970C900FE6DEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2A71DC254970C900FE6DEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB2A71BA254970C600FE6DEF = {
+			isa = PBXGroup;
+			children = (
+				BB2A71C5254970C700FE6DEF /* ANPRScanner */,
+				BB2A71D7254970C900FE6DEF /* ANPRScannerTests */,
+				BB2A71E2254970C900FE6DEF /* ANPRScannerUITests */,
+				BB2A71C4254970C700FE6DEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB2A71C4254970C700FE6DEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB2A71C3254970C700FE6DEF /* ANPRScanner.app */,
+				BB2A71D4254970C900FE6DEF /* ANPRScannerTests.xctest */,
+				BB2A71DF254970C900FE6DEF /* ANPRScannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB2A71C5254970C700FE6DEF /* ANPRScanner */ = {
+			isa = PBXGroup;
+			children = (
+				BB2A71C6254970C700FE6DEF /* ANPRScannerApp.swift */,
+				BB2A71C8254970C700FE6DEF /* ContentView.swift */,
+				BB2A71CA254970C800FE6DEF /* Assets.xcassets */,
+				BB2A71CF254970C800FE6DEF /* Info.plist */,
+				BB2A71CC254970C800FE6DEF /* Preview Content */,
+			);
+			path = ANPRScanner;
+			sourceTree = "<group>";
+		};
+		BB2A71CC254970C800FE6DEF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB2A71CD254970C800FE6DEF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB2A71D7254970C900FE6DEF /* ANPRScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB2A71D8254970C900FE6DEF /* ANPRScannerTests.swift */,
+				BB2A71DA254970C900FE6DEF /* Info.plist */,
+			);
+			path = ANPRScannerTests;
+			sourceTree = "<group>";
+		};
+		BB2A71E2254970C900FE6DEF /* ANPRScannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB2A71E3254970C900FE6DEF /* ANPRScannerUITests.swift */,
+				BB2A71E5254970C900FE6DEF /* Info.plist */,
+			);
+			path = ANPRScannerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB2A71C2254970C700FE6DEF /* ANPRScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB2A71E8254970C900FE6DEF /* Build configuration list for PBXNativeTarget "ANPRScanner" */;
+			buildPhases = (
+				BB2A71BF254970C700FE6DEF /* Sources */,
+				BB2A71C0254970C700FE6DEF /* Frameworks */,
+				BB2A71C1254970C700FE6DEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ANPRScanner;
+			productName = ANPRScanner;
+			productReference = BB2A71C3254970C700FE6DEF /* ANPRScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB2A71D3254970C900FE6DEF /* ANPRScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB2A71EB254970C900FE6DEF /* Build configuration list for PBXNativeTarget "ANPRScannerTests" */;
+			buildPhases = (
+				BB2A71D0254970C900FE6DEF /* Sources */,
+				BB2A71D1254970C900FE6DEF /* Frameworks */,
+				BB2A71D2254970C900FE6DEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB2A71D6254970C900FE6DEF /* PBXTargetDependency */,
+			);
+			name = ANPRScannerTests;
+			productName = ANPRScannerTests;
+			productReference = BB2A71D4254970C900FE6DEF /* ANPRScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB2A71DE254970C900FE6DEF /* ANPRScannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB2A71EE254970C900FE6DEF /* Build configuration list for PBXNativeTarget "ANPRScannerUITests" */;
+			buildPhases = (
+				BB2A71DB254970C900FE6DEF /* Sources */,
+				BB2A71DC254970C900FE6DEF /* Frameworks */,
+				BB2A71DD254970C900FE6DEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB2A71E1254970C900FE6DEF /* PBXTargetDependency */,
+			);
+			name = ANPRScannerUITests;
+			productName = ANPRScannerUITests;
+			productReference = BB2A71DF254970C900FE6DEF /* ANPRScannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB2A71BB254970C600FE6DEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					BB2A71C2254970C700FE6DEF = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					BB2A71D3254970C900FE6DEF = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = BB2A71C2254970C700FE6DEF;
+					};
+					BB2A71DE254970C900FE6DEF = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = BB2A71C2254970C700FE6DEF;
+					};
+				};
+			};
+			buildConfigurationList = BB2A71BE254970C600FE6DEF /* Build configuration list for PBXProject "ANPRScanner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB2A71BA254970C600FE6DEF;
+			productRefGroup = BB2A71C4254970C700FE6DEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB2A71C2254970C700FE6DEF /* ANPRScanner */,
+				BB2A71D3254970C900FE6DEF /* ANPRScannerTests */,
+				BB2A71DE254970C900FE6DEF /* ANPRScannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB2A71C1254970C700FE6DEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2A71CE254970C800FE6DEF /* Preview Assets.xcassets in Resources */,
+				BB2A71CB254970C800FE6DEF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2A71D2254970C900FE6DEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2A71DD254970C900FE6DEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB2A71BF254970C700FE6DEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2A71C9254970C700FE6DEF /* ContentView.swift in Sources */,
+				BB2A71C7254970C700FE6DEF /* ANPRScannerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2A71D0254970C900FE6DEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2A71D9254970C900FE6DEF /* ANPRScannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2A71DB254970C900FE6DEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2A71E4254970C900FE6DEF /* ANPRScannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB2A71D6254970C900FE6DEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB2A71C2254970C700FE6DEF /* ANPRScanner */;
+			targetProxy = BB2A71D5254970C900FE6DEF /* PBXContainerItemProxy */;
+		};
+		BB2A71E1254970C900FE6DEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB2A71C2254970C700FE6DEF /* ANPRScanner */;
+			targetProxy = BB2A71E0254970C900FE6DEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BB2A71E6254970C900FE6DEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB2A71E7254970C900FE6DEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB2A71E9254970C900FE6DEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ANPRScanner/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ANPRScanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.robbystoned.ANPRScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB2A71EA254970C900FE6DEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ANPRScanner/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ANPRScanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.robbystoned.ANPRScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB2A71EC254970C900FE6DEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ANPRScannerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.robbystoned.ANPRScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ANPRScanner.app/ANPRScanner";
+			};
+			name = Debug;
+		};
+		BB2A71ED254970C900FE6DEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ANPRScannerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.robbystoned.ANPRScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ANPRScanner.app/ANPRScanner";
+			};
+			name = Release;
+		};
+		BB2A71EF254970C900FE6DEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ANPRScannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.robbystoned.ANPRScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ANPRScanner;
+			};
+			name = Debug;
+		};
+		BB2A71F0254970C900FE6DEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ANPRScannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.robbystoned.ANPRScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ANPRScanner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB2A71BE254970C600FE6DEF /* Build configuration list for PBXProject "ANPRScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2A71E6254970C900FE6DEF /* Debug */,
+				BB2A71E7254970C900FE6DEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB2A71E8254970C900FE6DEF /* Build configuration list for PBXNativeTarget "ANPRScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2A71E9254970C900FE6DEF /* Debug */,
+				BB2A71EA254970C900FE6DEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB2A71EB254970C900FE6DEF /* Build configuration list for PBXNativeTarget "ANPRScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2A71EC254970C900FE6DEF /* Debug */,
+				BB2A71ED254970C900FE6DEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB2A71EE254970C900FE6DEF /* Build configuration list for PBXNativeTarget "ANPRScannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2A71EF254970C900FE6DEF /* Debug */,
+				BB2A71F0254970C900FE6DEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB2A71BB254970C600FE6DEF /* Project object */;
+}
